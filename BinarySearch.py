@@ -45,4 +45,5 @@ arr = [2,14,19,21,99,210,512,1028,4443,5110]
 element = 99
 start_index = 0
 last_index = len(arr)-1
+print("Calling recursive function")
 Binary_search(arr,start_index,last_index,element)
