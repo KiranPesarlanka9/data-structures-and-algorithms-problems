@@ -12,6 +12,9 @@ class MyStack:
         element = self.arr.pop(self.top)
         self.top -= 1
         return element
+    
+    def top_position(self):
+        return self.top
 
 """
 >>> from MyStack import MyStack
